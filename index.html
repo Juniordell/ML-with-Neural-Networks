@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neural Networks</title>
-    <script src="//unpkg.com/brain.js" defer></script>
-    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <div id="color">
-        <div class="white">White Text</div>
-        <div>Blak Text</div>
-        <div id="guess">Guess Text</div>
+    <div class="container">
+        <div id="color">
+            <div class="white">White Text</div>
+            <div>Blak Text</div>
+            <div id="guess">Guess Text</div>
+        </div>
+        <div class="buttons">
+            <button id="white-button">White</button>
+            <button id="black-button">Black</button>
+            <button id="print-button">Print</button>
+        </div>
     </div>
 
-    <button id="white-button">White</button>
-    <button id="black-button">Black</button>
-    <button id="print-button">Print</button>
+    <script src="//unpkg.com/brain.js" defer></script>
+    <script src="scripts.js" defer></script>
 </body>
 </html>
