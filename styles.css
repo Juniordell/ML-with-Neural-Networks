@@ -3,6 +3,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #e2e2e2;
 }
 
 .container {
@@ -36,8 +37,13 @@ body {
     padding: 20px;
     cursor: pointer;
     border-radius: 5px;
+    outline: none;
     color: white;
     background-color: rgb(10, 82, 175);
+}
+
+.buttons button:hover {
+    background-color: rgb(11, 67, 141);
 }
 
 .white {
